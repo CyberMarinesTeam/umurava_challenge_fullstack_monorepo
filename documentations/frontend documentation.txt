@@ -1,0 +1,31 @@
+# Frontend Service Documentation
+
+## Overview
+This frontend service is built using Next.js and Redux Toolkit. It provides an interface for managing challenges, allowing users to create, edit, and delete challenges.
+
+## Key Features
+- **User Roles**: The application supports different user roles, including admin and talent.
+- **Challenge Management**: Admin users can create, edit, and delete challenges.
+- **Responsive Design**: The application is designed to be responsive and user-friendly.
+
+## Components
+- **Challenge Form**: Used for creating and editing challenges. It includes fields for title, deadline, duration, money prize, contact email, project brief, and skills needed.
+- **Challenge List**: Displays a list of challenges with options to edit or delete.
+
+## Redux Store
+The application uses Redux Toolkit for state management. The `challengeSlice` manages the state related to challenges, including fetching, creating, updating, and deleting challenges.
+
+### Key Endpoints
+- **GET /challenges**: Fetch all challenges.
+- **GET /challenges/:id**: Fetch a specific challenge by ID.
+- **POST /challenges/:id**: Create a new challenge.
+- **PUT /challenges/:id**: Update an existing challenge.
+- **DELETE /challenges/:id**: Delete a challenge.
+
+## How to Use
+1. **Creating a Challenge**: Navigate to the challenge creation page and fill out the form with the required details.
+2. **Editing a Challenge**: Select a challenge from the list and click on the edit button to modify its details.
+3. **Deleting a Challenge**: Click the delete button next to a challenge to remove it from the list.
+
+## Conclusion
+This frontend service provides a comprehensive solution for managing challenges. For further assistance, please refer to the code comments and the Redux slice documentation.

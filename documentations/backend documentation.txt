@@ -1,0 +1,50 @@
+Documentation for Running and Using the Backend Service
+Overview
+This backend service is built using the NestJS framework, a progressive Node.js framework for building efficient and scalable server-side applications. The service is structured into modules, each handling different functionalities such as authentication, challenges, notifications, and participants.
+
+Prerequisites
+Node.js: Ensure you have Node.js installed on your machine. You can download it from nodejs.org.
+Project Setup
+Clone the Repository:
+
+git clone <repository-url>
+cd <repo-downloaded folder>
+Install Dependencies:
+Run the following command to install all necessary dependencies:
+
+npm install
+Running the Application
+Development Mode: To run the application in development mode with auto-reload:
+
+npm run start:dev
+Production Mode: To run the application in production mode:
+
+npm run start:prod
+Watch Mode: To run the application in watch mode:
+
+npm run start
+API Documentation
+The API documentation is available at the /api endpoint. You can access it by navigating to:
+
+http://localhost:4000/api
+Testing
+To run the unit tests, use:
+
+npm run test
+For end-to-end tests, use:
+
+npm run test:e2e
+Deployment
+For deployment, you can use the Mau platform to deploy your NestJS application to AWS easily. Follow these steps:
+
+Install Mau globally:
+npm install -g mau
+Deploy your application:
+mau deploy
+Resources
+NestJS Documentation
+NestJS Discord Channel
+Support
+For any issues or questions, please refer to the resources above or reach out through the Discord channel.
+
+This documentation provides a concise overview of how to set up, run, and use the backend service, along with links to additional resources for further assistance.
